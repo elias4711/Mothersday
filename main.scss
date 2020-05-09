@@ -143,13 +143,21 @@ body {
     right: -20px;
     bottom: 0px;
     z-index: 300;
-    height: 130%;
+    height: 110%;
     margin: 30px 30px;
     background-color: white;
-    padding: 10px;
+    padding: 20px;
 
     .moretext {
         display: block;
         font-family: sans-serif;
+    }
+
+    .heart {
+        display: none;
+    }
+
+    .clickme {
+        display: none;
     }
 }

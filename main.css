@@ -209,14 +209,22 @@ body {
   right: -20px;
   bottom: 0px;
   z-index: 300;
-  height: 130%;
+  height: 110%;
   margin: 30px 30px;
   background-color: white;
-  padding: 10px;
+  padding: 20px;
 }
 
 .couponexpand .moretext {
   display: block;
   font-family: sans-serif;
+}
+
+.couponexpand .heart {
+  display: none;
+}
+
+.couponexpand .clickme {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */
