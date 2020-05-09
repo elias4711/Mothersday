@@ -5,8 +5,8 @@
 
 body {
   background-color: #070524;
-  height: 375px;
-  width: 676px;
+  height: 100vh;
+  width: 100vw;
   overflow: hidden;
   margin: 0 auto;
 }
