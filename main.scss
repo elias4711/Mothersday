@@ -73,6 +73,13 @@ body {
         .moretext {
             display: none;
         }
+
+        .heart {
+            position: absolute; 
+            right: 61px; 
+            top: 33px; 
+            width: 14px;
+        }
     }
 }
 
@@ -154,7 +161,9 @@ body {
     }
 
     .heart {
-        display: none;
+        position: absolute;
+        bottom: 50px;
+        width: 50px;
     }
 
     .clickme {

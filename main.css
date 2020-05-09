@@ -96,6 +96,13 @@ body {
   display: none;
 }
 
+.moving .coupon .heart {
+  position: absolute;
+  right: 61px;
+  top: 33px;
+  width: 14px;
+}
+
 .flower {
   width: 80%;
   height: auto;
@@ -221,7 +228,9 @@ body {
 }
 
 .couponexpand .heart {
-  display: none;
+  position: absolute;
+  bottom: 50px;
+  width: 50px;
 }
 
 .couponexpand .clickme {
