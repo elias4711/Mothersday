@@ -92,6 +92,10 @@ body {
   font-family: 'San Francisco',sans-serif;
 }
 
+.moving .coupon .moretext {
+  display: none;
+}
+
 .flower {
   width: 80%;
   height: auto;
@@ -200,7 +204,7 @@ body {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   position: relative;
-  top: -600px;
+  top: -570px;
   left: 100px;
   right: -20px;
   bottom: 0px;
@@ -208,5 +212,11 @@ body {
   height: 130%;
   margin: 30px 30px;
   background-color: white;
+  padding: 10px;
+}
+
+.couponexpand .moretext {
+  display: block;
+  font-family: sans-serif;
 }
 /*# sourceMappingURL=main.css.map */

@@ -69,6 +69,10 @@ body {
             font-size: 8px;
             font-family:  'San Francisco',sans-serif;
         }
+
+        .moretext {
+            display: none;
+        }
     }
 }
 
@@ -134,7 +138,7 @@ body {
 .couponexpand {
     transition: 0.5s ease;
     position: relative;
-    top: -600px;
+    top: -570px;
     left: 100px;
     right: -20px;
     bottom: 0px;
@@ -142,4 +146,10 @@ body {
     height: 130%;
     margin: 30px 30px;
     background-color: white;
+    padding: 10px;
+
+    .moretext {
+        display: block;
+        font-family: sans-serif;
+    }
 }
