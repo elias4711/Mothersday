@@ -47,6 +47,7 @@ body {
         animation-name: coupon;
         animation-timing-function: ease-out;
         animation-duration: 4s;
+        transition: 0.5s ease;
         position: relative;
         left: 220px;
         top: -310px;
@@ -131,14 +132,14 @@ body {
 }
 
 .couponexpand {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    transition: 0.5s ease;
+    position: relative;
+    top: -660px;
+    left: 100px;
+    right: -20px;
+    bottom: 0px;
     z-index: 300;
-    width: 100%;
-    height: 100%;
+    height: 130%;
     margin: 30px 30px;
     background-color: white;
 }
