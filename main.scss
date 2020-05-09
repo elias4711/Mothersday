@@ -25,7 +25,7 @@ body {
 .moving {
     margin: 0 auto;
     position: relative;
-    bottom: -100px;
+    bottom: 0px;
     right: 140px;
     width: 300px;
     height: auto;
@@ -74,7 +74,7 @@ body {
         bottom: -1500px
     }
     to {
-        bottom: -100px
+        bottom: 0px
     }
 }
 
