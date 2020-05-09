@@ -7,6 +7,7 @@ body {
   background-color: #070524;
   height: 100vh;
   width: 100%;
+  overflow: hidden;
   margin: 0 auto;
 }
 
@@ -191,5 +192,18 @@ body {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
+}
+
+.couponexpand {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 300;
+  width: 100%;
+  height: 100%;
+  margin: 30px 30px;
+  background-color: white;
 }
 /*# sourceMappingURL=main.css.map */
