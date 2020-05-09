@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" ref="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ozl7cdd.css">
+    <title>Muttertag</title>
+</head>
+<body>
+    
+    <div class="font">
+        <h1>Für die Beste Mama der Welt !</h1>
+    </div>
+
+
+    <div class="moving">
+        <img onclick="expand()" class="foreground" style="width: 600px;" src="img/hands.png" alt="hands">
+        <div id="expand" class="coupon">
+            <h1>Alles Liebe zum Muttertag</h1>
+            <p> von Pius und Elias</p>
+        </div>
+        <img class="background" style="width: 600px" src="img/back.png">
+    </div>
+</body>
+
+<script>
+    function expand() {
+        document.getElementById("expand").style.width = "90%";
+        document.getElementById("expand").style.height = "90%";
+    }
+</script>
+</html>
