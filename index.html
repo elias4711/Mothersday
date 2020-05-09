@@ -17,7 +17,7 @@
 
     <div class="moving">
         <img onclick="expand()" class="foreground" style="width: 600px;" src="img/hands.png" alt="hands">
-        <div id="expand" class="coupon">
+        <div id="expand" id="close" onclick="close()" class="coupon">
             <h1>Alles Liebe zum Muttertag</h1>
                 <img class="heart" src="img/heart.svg" alt="herz">
             <p class="moretext">Die beste Mama der Welt hat nur das Beste verdient, wir wünschen dir von ganzen herzen einen wundervollen Muttertag. <br> <br>  von <i>Pius</i> und <i>Elias</i> </p>
@@ -35,6 +35,12 @@
   var element = document.getElementById("expand");
   element.classList.add("couponexpand");
   element.classList.remove("coupon");
+}
+
+function close() {
+  var element = document.getElementById("close");
+  element.classList.remove("couponexpand");
+  element.classList.add("coupon");
 }
 </script>
 </html>
