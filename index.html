@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" ref="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://use.typekit.net/ozl7cdd.css">
     <title>Muttertag</title>
 </head>
@@ -25,9 +25,10 @@
 </body>
 
 <script>
-    function expand() {
-        document.getElementById("expand").style.width = "90%";
-        document.getElementById("expand").style.height = "90%";
-    }
+   function expand() {
+  var element = document.getElementById("expand");
+  element.classList.add("couponexpand");
+  element.classList.remove("coupon");
+}
 </script>
 </html>
