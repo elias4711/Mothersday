@@ -24,11 +24,11 @@ body {
 
 .moving {
     margin: 0 auto;
-    position: relative;
+    position: absolute;
     bottom: 0px;
-    right: 140px;
-    width: 300px;
-    height: auto;
+    right: 100px;
+    width: 100vw;
+    height: 450px;
     z-index: auto;
     animation-name: hands;
     animation-duration: 3s;
